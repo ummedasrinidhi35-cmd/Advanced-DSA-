@@ -17,3 +17,4 @@ def longestOnes( nums: List[int], k: int) -> int:
 nums = [1,1,1,0,0,0,1,1,1,1,0]
 k = 2
 print(longestOnes(nums, k))
+print(longestOnes([0,0,1,1,0,0,1,1,1,0,1,1,0,0,0,1,1,1,1], 3))
